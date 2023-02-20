@@ -115,6 +115,7 @@ ssh-keygen
 Este comando nos pedirá que confirmemos la ruta donde se creará la carpeta ssh para guardar las claves. A continuación, se nos pedirá que generemos una frase de seguridad, que podemos dejar en blanco si así lo deseamos. Por último, se nos pedirá que confirmemos la clave que hemos generado para acceder a las claves, la cual también podemos dejar en blanco.
 
 Es importante tener en cuenta que después de ejecutar el comando ssh-keygen, debemos dar ENTER tres veces para confirmar las opciones por defecto. De esta forma, se generará la clave SSH necesaria para la comunicación entre GIT y GitHub.
+
 6- El comando "cat ~/.ssh/id_rsa.pub" nos permite mostrar la clave pública generada. Al ejecutar este comando y presionar ENTER, se mostrará la clave en la pantalla de la consola. Esta clave es la que vamos a agregar a nuestra cuenta de GitHub para que pueda reconocer nuestro equipo como un dispositivo autorizado a trabajar con nuestros repositorios.
 Luego de generarla la copiamos sin espacios vacíos, ya que vamos a tener que pegarla en GITHUB.
 ![image](https://user-images.githubusercontent.com/32584525/220136869-df5c7a5c-7d31-4272-a7a4-ff0f93395ac3.png)
